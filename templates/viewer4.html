@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>예제 4</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="turn.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>예제 4</h1>
+
+      <div class="book-container">
+        <div id="flipbook">
+          <div class="page">
+            <h2>표지</h2>
+            <p>4-1</p>
+          </div>
+          <div class="page"><p>4-2</p></div>
+          <div class="page"><p>4-3</p></div>
+          <div class="page"><p>4-4</p></div>
+          <div class="page">
+            <h2>끝</h2>
+            <p>4-5</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="prev">이전 페이지</button>
+        <button id="next">다음 페이지</button>
+      </div>
+
+      <div class="page-num">
+        페이지: <span id="page-number">1</span> /
+        <span id="total-pages">5</span>
+      </div>
+    </div>
+  </body>
+</html>

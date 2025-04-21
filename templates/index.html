@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TURN.JS 연습</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #fffdfa;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .meta {
+        text-align: center;
+        color: #888;
+        margin-bottom: 20px;
+      }
+      .summary {
+        background-color: #f3f3f3;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        line-height: 1.6;
+      }
+      .episode-list {
+        list-style: none;
+        padding: 0;
+      }
+      .episode-list li {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 15px;
+        border-bottom: 1px solid #eee;
+        cursor: pointer;
+      }
+      .episode-list li span {
+        color: #333;
+      }
+      .episode-list li .free {
+        color: #2a8f4c;
+        font-weight: bold;
+      }
+      .episode-list li:hover {
+        background-color: #f0f8ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>TURN.JS 연습</h1>
+      <div class="meta">KwangYeal</div>
+
+      <div class="summary">
+        5개 탭<br />
+        5페이지씩
+      </div>
+
+      <ul class="episode-list">
+        <li onclick="location.href='viewer1.html'">
+          <span>1</span><span class="free">무료</span>
+        </li>
+        <li onclick="location.href='viewer2.html'">
+          <span>2</span><span class="free">무료</span>
+        </li>
+        <li onclick="location.href='viewer3.html'">
+          <span>3</span><span class="free">무료</span>
+        </li>
+        <li onclick="location.href='viewer4.html'">
+          <span>4</span><span class="free">무료</span>
+        </li>
+        <li onclick="location.href='viewer5.html'">
+          <span>5</span><span class="free">무료</span>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
